@@ -1,0 +1,13 @@
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00011.jpg	A man is sitting on the ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00121.jpg	A man is walking into the ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00061.jpg	A woman is moving in a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A woman is walking in a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00041.jpg	A woman is playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00071.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00081.jpg	A woman is walking in a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00021.jpg	A man is sitting on a ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00051.jpg	A woman is running in a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00001.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A woman is walking in a building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00031.jpg	A woman is sitting on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00101.jpg	A woman is walking in a wall.

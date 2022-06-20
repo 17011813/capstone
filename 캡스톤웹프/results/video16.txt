@@ -1,0 +1,43 @@
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00221.jpg	A large woman is using a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00061.jpg	A piece of it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00291.jpg	A piece of a knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00261.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A woman s it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00331.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00051.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00211.jpg	A large stick.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00131.jpg	A large stick.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00101.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00411.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00251.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00201.jpg	A large stick.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00121.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00391.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00301.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00171.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00371.jpg	A large table.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00141.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00081.jpg	A large woman is cutting it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00381.jpg	A large stick.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00401.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00271.jpg	A large woman is cutting it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00321.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00151.jpg	A large woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00021.jpg	A bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00161.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00361.jpg	A large table.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00001.jpg	A bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00031.jpg	A large bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00341.jpg	A large woman is using it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00011.jpg	A bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00241.jpg	A large woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00281.jpg	A knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00191.jpg	A large woman is getting it.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00041.jpg	A bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00421.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00071.jpg	A large bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00181.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00351.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00231.jpg	A large bottle.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00311.jpg	A large knife.

@@ -1,0 +1,2 @@
+00:04	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A woman is walking in a wall.
+00:02	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A woman is walking in a building.

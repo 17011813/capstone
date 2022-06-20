@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>기말고사</title>
+<meta name="author" content="세종대">
+<meta name="keywords" content="기말고사">
+<meta name="description" content="Web Programming 시험">
+<style>
+input+#q1{
+background-color:orange;
+}
+#q7:hover{
+background-size:100px 100px;
+background-image:url('data/sejong.jpg');
+background-repeat:no-repeat;
+background-position:right bottom;
+}
+</style>
+</head>
+
+
+<body id="body1">
+<table border="2" style="width:800px;;border-collapse:collapse;caption-side:bottom;text-align:center;table-layout:fixed">
+<caption>1번 테이블HTML(1점)/테이블CSS(1점)</caption>
+<tr><td colspan="2" id="q1010">2번 인접형제선택자(1점)<br><input type="number" value="3" min="0" max="5">
+<input type="button" onclick="alert('경고창')" value="경고창" id="q1"></td>
+<td colspan="2"><form><fieldset style="width:150px;height:100px;">
+<legend>3번 입력폼(1점)</legend>
+<input type="text" value="이현지" size="5" disabled>
+<br>
+<input type="password" placeholder="17011835" size="5" required>
+<br>
+<input type="submit" value="제출">
+<input type="reset" value="리셋">
+</fieldset></form></td>
+<td colspan="2">4번 선택목록(1점)
+<select value="q4"><optgroup label="그룹1"><option>선택1-1</option><option>선택1-2</option></optgroup>
+<optgroup label="그룹2"><option selected>선택2-1</option><option>선택2-2</option></optgroup></td>
+<td colspan="2">5번 변환<div style="width:30px;height:30px;border:3px black solid"></div><div style="width:30px;height:30px;border:3px black solid;transform:translate(100px,-15px) rotate(45deg)"></div></td></tr>
+<tr>
+<td colspan="4" id="q1515" style="height:100px;"><div style="display:inline;background-color:purple">div</div> <div style="display:inline;background-color:green">div</div> <div style="display:inline;background-color:lightblue">div</div>
+<br>6번 정렬(1번)<br><div style="width:50%;background-color:yellow;float:right">div50%</div><br><div style="width:50%;background-color:yellow;float;left">div50%</div></td>
+<td colspan="4" id="q7">
+7번 배경이미지
+</td>
+</tr>
+<tr><td><input type="button" value="8번JS(1점)" onclick="q8()"></td>
+<td><input type="button" value="9번JS(1점)" onclick="q9()"></td><td><input type="button" value="10번JS(1점)" onclick="q10()"></td><td><input type="button" value="11번JS(1점)"  onclick="q11()"></td><td><input type="button" value="12번JS(2점)" onclick="q12()"></td><td><input type="button" value="13번JS(2점)" onclick="q13()"></td><td><input type="button" value="14번JS(3점)" onclick="q14()"></td><td><input type="button" value="15번JS(3점)" onclick="q15()"></td></tr>
+<tr>
+<td colspan="8">15번 JS(총 8점)
+<br><input type="radio" value="가위" name="rsp" onclick="ms()">가위
+<input type="radio" value="바위" onclick="mr()" name="rsp"  checked>바위
+<input type="radio" value="보" onclick="mp()" name="rsp" >보
+(1점, 이어지는 문제를 위해 버튼으로 구현 가능하지만 부분점수는 없음)
+<br>나:<input type="text" value="" size="5" id="me">
+컴퓨터:<input type="text" value="" size="5" id="com">
+=>결과:<input type="text" value="" size="5" id="result">(4점)
+<br><span id="q1616">전적 : 0승 0무 0패</span>(3점, 가위=승/바위=무,보=패 로 구현 시 2점)
+</td>
+</tr>
+</table>
+
+<div id="q77" style="display:none;background-color:black;position:fixed;left:100px;top:500px;width:100px;height:100px;"></div>
+
+<script>
+function q8(){
+document.getElementById("q77").style.display="block";
+}
+function q9(){
+location.href="http://www.sejong.ac.kr";
+}
+function q10(){
+document.getElementById("q1010").style.backgroundImage="url(data/sejong.jpg)";
+document.getElementById("q1010").style.backgroundSize="30px 30px";
+}
+function q11(){
+document.getElementById("body1").style.color="red";
+document.getElementById("body1").style.fontWeight="bold";
+document.getElementById("body1").style.fontSize="20px";
+}
+function q12(){
+var pro=prompt('숫자를 입력하세요.');
+var a=0;
+for(var i=0;i<=Number(pro);i++){
+a=a+i;
+}
+alert(a);
+}
+function q13(){
+var con=confirm('확인누르세요');
+while(con==false){
+con=confirm('확인누르세요');
+}
+}
+function q14(){
+var today=new Date();
+var year=today.getFullYear();
+var month=Number(today.getMonth())+1;
+var date=today.getDate();
+var day=today.getDay();
+var dd;
+if(day=="1"){
+dd="월";
+}
+if(day=="2"){
+dd="화";
+}
+if(day=="3"){
+dd="수";
+}
+if(day=="4"){
+dd="목";
+}
+if(day=="5"){
+dd="금";
+}
+if(day=="6"){
+dd="토";
+}
+if(day=="7"){
+dd="일";
+}
+alert(year+'년 '+month+'월 '+date+'일 '+dd+'요일');
+}
+function q15(){
+document.getElementById("q1515").innerHTML="<mark>14번</mark>";
+}
+function ms(){
+document.getElementById("me").value="가위";
+var cr=Math.round(Math.random()*2);
+if(cr==0){
+document.getElementById("com").value="가위";
+document.getElementById("result").value="무";
+same();
+}
+else if(cr==1){
+document.getElementById("com").value="바위";
+document.getElementById("result").value="패";
+lose();
+}
+else if(cr==2){
+document.getElementById("com").value="보";
+document.getElementById("result").value="승";
+win();
+}
+}
+function mr(){
+document.getElementById("me").value="바위";
+var cr=Math.round(Math.random()*2);
+if(cr==0){
+document.getElementById("com").value="가위";
+document.getElementById("result").value="승";
+win();
+}
+else if(cr==1){
+document.getElementById("com").value="바위";
+document.getElementById("result").value="무";
+same();
+}
+else if(cr==2){
+document.getElementById("com").value="보";
+document.getElementById("result").value="패";
+lose();
+}
+}
+function mp(){
+document.getElementById("me").value="보";
+var cr=Math.round(Math.random()*2);
+if(cr==0){
+document.getElementById("com").value="가위";
+document.getElementById("result").value="패";
+lose();
+}
+else if(cr==1){
+document.getElementById("com").value="바위";
+document.getElementById("result").value="승";
+win();
+}
+else if(cr==2){
+document.getElementById("com").value="보";
+document.getElementById("result").value="무";
+same();
+}
+}
+var w=0;
+var l=0;
+var s1=0;
+function win(){
+w++;
+document.getElementById("q1616").innerHTML="전적 : "+w+"승 "+s1+"무 " +l+"패";
+}
+function lose(){
+l++;
+document.getElementById("q1616").innerHTML="전적 : "+w+"승 "+s1+"무 " +l+"패";
+}
+function same(){
+s1++;
+document.getElementById("q1616").innerHTML="전적 : "+w+"승 "+s1+"무 " +l+"패";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+점검용 공백
+</body>
+</html>

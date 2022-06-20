@@ -1,0 +1,34 @@
+
+00:00:01	D:/caffe/examples/images/vid00001.jpg	A woman is walking in the floor.
+00:00:14	D:/caffe/examples/images/vid00181.jpg	A woman is talking.
+00:00:25	D:/caffe/examples/images/vid00271.jpg	A woman is talking on the floor.
+
+00:01:07원래
+00:01:11	D:/caffe/examples/images/vid00541.jpg	A man is walking on the floor.
+
+
+
+00:03:43	D:/caffe/examples/images/vid01801.jpg	A woman is talking to the other.
+
+
+00:04:07  D:/caffe/examples/images/vid01981.jpg	A man is talking on the floor.
+						
+
+00:06:15	D:/caffe/examples/images/vid02971.jpg	A man is walking.
+
+00:06:53	D:/caffe/examples/images/vid03241.jpg	A woman is talking.
+00:06:56	D:/caffe/examples/images/vid03331.jpg	A woman is sitting.
+						
+
+
+
+
+
+
+
+
+
+
+
+
+00:09:34	D:/caffe/examples/images/vid04501.jpg	A woman is talking.

@@ -1,0 +1,19 @@
+beam_size_1	D:/caffe/examples/images/vid03241.jpg	A woman is talking.
+beam_size_1	D:/caffe/examples/images/vid04321.jpg	A woman is walking.
+beam_size_1	D:/caffe/examples/images/vid03781.jpg	A woman is talking.
+beam_size_1	D:/caffe/examples/images/vid01171.jpg	A man is talking to the wall.
+beam_size_1	D:/caffe/examples/images/vid00361.jpg	A woman is talking on the floor.
+beam_size_1	D:/caffe/examples/images/vid00451.jpg	A woman is talking into the floor.
+beam_size_1	D:/caffe/examples/images/vid00811.jpg	A woman is talking to the floor.
+beam_size_1	D:/caffe/examples/images/vid04501.jpg	A woman is talking.
+beam_size_1	D:/caffe/examples/images/vid01081.jpg	A man is talking into the floor.
+beam_size_1	D:/caffe/examples/images/vid03331.jpg	A woman is sitting on the floor.
+beam_size_1	D:/caffe/examples/images/vid00541.jpg	A man is walking on the floor.
+beam_size_1	D:/caffe/examples/images/vid00091.jpg	A woman is sitting on a board.
+beam_size_1	D:/caffe/examples/images/vid00001.jpg	A woman is walking in the floor.
+beam_size_1	D:/caffe/examples/images/vid03151.jpg	A woman is sitting on the floor.
+beam_size_1	D:/caffe/examples/images/vid01981.jpg	A man is talking on the floor.
+beam_size_1	D:/caffe/examples/images/vid00271.jpg	A woman is talking on the floor.
+beam_size_1	D:/caffe/examples/images/vid00181.jpg	A woman is talking.
+beam_size_1	D:/caffe/examples/images/vid02971.jpg	A man is walking.
+beam_size_1	D:/caffe/examples/images/vid01801.jpg	A woman is talking to the other.

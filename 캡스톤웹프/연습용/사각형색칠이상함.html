@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<form>
+<fieldset style="width:500px;height:100px">
+<legend>사각형 색칠하기</legend>
+<center>
+<input type="color" value="#ffc000" id="col">
+<input type="text" placeholder="0" id="aaa">
+<input type="text" placeholder="0" id="bbb">
+<input type="range" value="0" max="90" min="0" id="rot">
+<br>
+<button type="button" onclick="change()">적용</button>
+<input type="reset"></button>
+</center>
+</fieldset> 
+</form>
+<div id="div2" style="width:100px;height:100px;background-color:purple"></div>
+
+<script>
+function change(){
+var aaa1=Number(document.getElementById("aaa").value);
+var bbb1=Number(document.getElementById("bbb").value);
+document.getElementById("div2").style.backgroundColor=document.getElementById("col").value;
+document.getElementById("div2").style.transform="rotate("+Number(document.getElementById("rot").value)+"deg)";
+document.getElementById("div2").style.transform="translate("+Number(document.getElementById("aaa").value)+"px"+Number(document.getElementById("bbb").value)+"px")";
+}
+</script>
+</body>
+</html>

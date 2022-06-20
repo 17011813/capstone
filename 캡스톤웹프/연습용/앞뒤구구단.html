@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<!-- HTML 구현 시작 -->
+<input type="button" value="다음" onclick="b()">
+<input type="button" value="이전" onclick="f()">
+<input type="button" value="구구단" onclick="m()">
+<br>
+<img src="data/세종대1.jpg" width="300" height="300" id="im">
+
+<!-- HTML 구현 끝 -->
+
+<script>
+// 갤러리 자바스크립트 구현
+var i=0;
+var array=["data/세종대1.jpg","data/세종대2.jpg","data/세종대3.jpg"];
+function b(){
+i=i+1;
+document.getElementById("im").src=array[i%3];
+}
+function f(){
+i=i-1;
+if(i<0){i=i+3;}
+document.getElementById("im").src=array[i%3];
+}
+
+</script>
+
+<script>
+// 구구단 자바스크립트 구현
+function m(){
+document.write("<table border='2' style='table-layout:fixed;text-align:center'width='300' height='300'><tr><td></td><td style='color:red'>1</td><td style='color:red'>2</td><td style='color:red'>3</td><td style='color:red'>4</td><td style='color:red'>5</td><td style='color:red'>6</td><td style='color:red'>7</td><td style='color:red'>8</td><td style='color:red'>9</td></tr><tr><td style='color:red'>1</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>2</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*2+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>3</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*3+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>4</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*4+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>5</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*5+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>6</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*6+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>7</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*7+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>8</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*8+"</td>")
+}
+document.write("</tr><tr><td style='color:red'>9</td>")
+for(var i=1;i<10;i++){
+document.write("<td>"+i*9+"</td>")
+}
+document.write("</tr><caption>구구단1~9단</caption></table>");
+
+}
+
+</script>
+
+
+</body>
+</html>

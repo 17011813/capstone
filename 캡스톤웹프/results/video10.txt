@@ -1,0 +1,21 @@
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00011.jpg	A man is using a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00121.jpg	A woman is sitting in a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00171.jpg	A woman is sitting into a ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00061.jpg	A man is walking on a ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00131.jpg	A woman is sitting into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00191.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00041.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00071.jpg	A man is walking on a ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00081.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00021.jpg	A woman is using a wood.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00181.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00051.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00141.jpg	A woman is standing in a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00201.jpg	A woman is talking to a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00001.jpg	A woman is using a wood.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A woman is using a wood.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00161.jpg	A woman is sitting into a building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00031.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00101.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00151.jpg	A man is standing into the floor.

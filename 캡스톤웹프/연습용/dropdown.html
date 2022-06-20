@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        #membar {
+            margin: 0;
+            width: 980px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .menu ul,
+        .menu .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            float: left;
+            width: 150px;
+            background-color: aqua;
+            line-height: 2em;
+            font-weight: 200;
+            font-size: 25px;
+            text-align: center;
+        }
+        div.menu li:hover {
+            background-color: orange;
+        }
+        div.menu div.menu {
+            display: none;
+        }        
+        div.menu li:hover div.menu {
+            display: block;
+        }
+    </style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" margin="0">
+    <div id="membar" class="menu">
+        <ul>
+            <li><a href="#"><span>Business</span></a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"><span>dropdown1</span></a></li>
+                        <li><a href="#"><span>dropdown2</span></a></li>
+                        <li><a href="#"><span>dropdown3</span></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

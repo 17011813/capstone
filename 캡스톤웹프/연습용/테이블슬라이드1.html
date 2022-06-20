@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>투어</title>
+<style>
+.mySlides {display: none;}
+.slideshow-container{
+width:100%;
+position:relative;
+margin:auto;
+margin-left:0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+</style>
+</head>
+
+<body>																		
+<table class="slideshow-container" border="0">
+<tr>
+<td>
+<div class="mySlides fade">
+<img src="../image/샘플1.jpg" style="width:100%;height:750px">
+</div>
+<div class="mySlides fade">
+<img src="../image/샘플2.jpg" style="width:100%;height:750px">
+</div>
+<div class="mySlides fade">
+<img src="../image/샘플3.jpg" style="width:100%;height:750px">
+</div>
+<div class="mySlides fade">
+<img src="../image/샘플4.jpg" style="width:100%;height:750px">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="text-align:center">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</td>
+</tr>
+</table>
+<script>
+var slideIndex = 0;																//광고가 슬라이드되어 넘어가게 함
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000);
+}
+</script>
+</body>
+</html>

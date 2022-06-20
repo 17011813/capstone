@@ -1,0 +1,90 @@
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00011.jpg	A woman is talking into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00121.jpg	A woman is walking into a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00061.jpg	A woman is talking into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A man is walking into a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00131.jpg	A woman is walking into a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00041.jpg	A woman is talking into a roof.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00071.jpg	A woman is standing into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00081.jpg	A woman is standing into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00021.jpg	A woman is standing into a roof.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00051.jpg	A woman is talking into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00141.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00001.jpg	A woman is standing into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A woman is standing into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00031.jpg	A woman is running into a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00101.jpg	A woman is standing into a wall.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00471.jpg	A woman is cutting a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00221.jpg	A man is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00061.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00291.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00551.jpg	A large woman is talking on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00261.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00541.jpg	A woman is talking on a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00511.jpg	A woman is talking on a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00111.jpg	A man is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00331.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00051.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00211.jpg	A man is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00431.jpg	A woman is cutting a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00131.jpg	A woman is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00091.jpg	A man is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00101.jpg	A man is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00411.jpg	A woman is using a metal.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00251.jpg	A man is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00201.jpg	A man is using a metal board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00121.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00741.jpg	A woman is sitting on a small board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00491.jpg	A large sheet.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00391.jpg	A woman is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00301.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00521.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00171.jpg	A woman is using a large bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00501.jpg	A small sheet.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00371.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00141.jpg	A man is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00081.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00381.jpg	A woman is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00401.jpg	A woman is using a glass.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00461.jpg	A woman is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00711.jpg	A woman is sitting on a table.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00651.jpg	A man is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00441.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00271.jpg	A small lot.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00321.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00531.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00151.jpg	A woman is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00731.jpg	A woman is sitting on a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00641.jpg	A man is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00621.jpg	A woman is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00021.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00161.jpg	A woman is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00591.jpg	A man is using a woman.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00361.jpg	A woman is using a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00001.jpg	A woman is using a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00671.jpg	A woman is using a wire.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00031.jpg	A woman is using a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00341.jpg	A woman is sitting on a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00561.jpg	A large sheet.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00571.jpg	A large sheet.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00011.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00601.jpg	A man is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00691.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00661.jpg	A woman is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00701.jpg	A woman is sitting on a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00241.jpg	A man is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00281.jpg	A woman is sitting on a small board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00191.jpg	A man is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00611.jpg	A man is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00041.jpg	A woman is cutting a large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00421.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00071.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00631.jpg	A knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00451.jpg	A large knife.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00181.jpg	A man is using a large bowl.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00351.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00721.jpg	A woman is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00681.jpg	A woman is using a small board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00231.jpg	A man is talking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00481.jpg	A woman is using a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00581.jpg	A woman is cutting a box.
+beam_size_1	D:\caffe\caffe\examples\s2vt\img\vid00311.jpg	A woman is using a box.

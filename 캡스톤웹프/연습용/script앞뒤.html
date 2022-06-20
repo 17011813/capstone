@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>title</title>
+</head>
+<body id="back" style="background-image:url(하트.jpg)">
+<center>
+<input type="button" value="앞으로" onclick="change1()"> 
+<input type="button" value="뒤로" onclick="change2()"> 
+<br><br>
+<image id="imagechange" src="블핑.jpg" width="700" height="500">
+</center>
+<script>
+var num=0;
+function change1(){
+num=num+1;
+if(num%2==1){
+document.getElementById("back").style.backgroundImage="url(하트2.jpg)";
+document.getElementById("imagechange").style.src="블핑2.jpg";
+}
+else{
+document.getElementById("back").style.backgroundImage="url(하트.jpg)";
+document.getElementById("imagechange").style.src="블핑3.jpg";
+}
+}
+function change2(){
+num=num-1;
+if(num%2==1){
+document.getElementById("back").style.backgroundImage="url(하트2.jpg)";
+document.getElementById("imagechange").src="블핑2.jpg";
+}
+else{
+document.getElementById("back").style.backgroundImage="url(하트.jpg)";
+document.getElementById("imagechange").src="블핑3.jpg";
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>객체 삽입</title>
+</head>
+<body>
+<table>
+<header>축구를 아시는가?</header>
+<table border="3">
+<tr>
+<th rowspan="2">포지션</th><th rowspan="2">역할</th><th colspan="2">축구선수</th>
+</tr>
+<tr>
+<th>대표선수</th><th>현재소속</th>
+</tr>
+<td>공격수</td><td><ul style="list-style-type:square"><li>멋있게 슛</li><li>수비도 협력</li></ul></td><td>빛의조</td><td>감바</td>
+</tr>
+</tr>
+<td>미드필더</td><td><ul style="list-style-type:square"><li>패스찔러주기</li><li>다양한 역할</li></ul></td><td><mark>손캡틴</mark></td><td>토트넘</td>
+</tr>
+</tr>
+<td>수비수</td><td><ul style=" list-style-type:square"><li>항상 긴장</li><li>골키퍼와 협력</li></ul></td><td>킹영권</td><td>광저우</td>
+</tr>
+<tr>
+<td colspan="4">참고사이트:<base href="http://www.sejong.ac.kr" target="_blank"><a href=" ">세종대학교</a><a href=:"mailto:53pjo@naver.com?cc=참조주소&bcc=비밀주소&subject=제목&body="본문">(메일보내기)</a></td>
+</tr>
+<tr>
+<td colspan="2"><image src="backg.jpg" border="2" height="100" width="100">세종대학교</td><td colspan="2"><audio src="이름.mp3" controls  loop muted></audio></td>
+</table>
+
+
+<br><br><br><br>
+<form>
+<h3>placeholder</h3>
+<p>이름 : <input type="text" name value="세종대" size="20"></p>
+<p>학번 : <input type="text" name="num" value="2018*****" size="20"></p>
+<p>비번 : <input type="password" name="num" size="20" placeholder="비번입력하세요"></p>
+<p><input type="submit" value="전송">&nbsp;&nbsp;&nbsp;<input type="reset" value="리셋">
+</p>
+</form>
+<hr size="5" noshade="noshade">
+<form>
+<h3>
+readonly</h3>
+<p>이름 : <input type="text" name value="세종대" size="20" readonly></p>
+<p>학번 : <input type="text" name="num" value="2018*****" size="20"></p>
+<p>비번 : <input type="password" name="num" size="20" placeholder="비번입력하세요" required></p>
+<p><input type="submit" value="전송">&nbsp;&nbsp;&nbsp;<input type="reset" value="리셋">
+</p>
+</form>
+<form>
+<p>이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;름 :<input type="text" name="name" value="세종대" size="20"></p>
+<p>학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;번 :<input type="text" name="num" value="2018*****" size="20"></p>
+<p>비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;번 :<input type="password" name="num" value="비번입력하세요" required></p>
+요구사항:
+</p><textarea name="textarea" rows="20" cols="33 placeholder="요구사항을 적어주세요">디폴트내용입니다</textarea></p>
+<p><input type="submit" value="전송">&nbsp;&nbsp;&nbsp;<input type="reset" value="리셋"></p>
+</form>
+<form>
+<fieldset style="width:100px; height:550px;">
+<legend>개인 정보 입력</legend>
+<p>이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;름 :<input type="text" name="name" value="세종대" size="20"></p>
+<p>학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;번 :<input type="text" name="num" value="2018*****" size="20"></p>
+<p>비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;번 :<input type="password" name="num" value="비번입력하세요" required></p>
+요구사항:
+</p><textarea name="textarea" rows="20" cols="33 placeholder="요구사항을 적어주세요">디폴트내용입니다</textarea></p>
+<p><input type="submit" value="전송">&nbsp;&nbsp;&nbsp;<input type="reset" value="리셋"></p>
+</fidldset>
+</form>
+<br><br>
+<h3>방탄소년단에서 누구를 제일 좋아하나요?</h3>
+<input type="radio" name="bts" value="RM">RM
+<input type="radio" name="bts" value="슈가">슈가
+<input type="radio" name="bts" value="진"checked>진
+<input type="radio" name="bts" value="정국">정국
+</form>
+<form>
+<h3>버튼</h3>
+<button type="button" onclick="alert('수업집중하세요')">button</button>
+<input type="button" onclick="alert('수업집중하세요')" value="input">
+</form>
+<form>
+<h3>블핑</h3>
+<select name="변수명">
+<option value="전달내용1" selected>설명1</option>
+<option value="전달내용2">설명2</option>
+<option value="전달내용3">설명3</option>
+</form>
+<br><br>
+<form>
+<h3>누구를 제일(이거오류!!!)</h3>
+<select name="group">
+<optgroup label="블핑">
+<option value="지수"selected>지수</option>
+<option value="제니"selected>제니</option>
+<option value="로제"selected>로제</option>
+<option value="리사"selected>리사</option>
+<option value="etc"selected>무관심</option>
+</optgroup>
+</form>
+<br><br>
+<form>
+연도-월-일<input type="date" name="data"><br>
+연도-월<input type="month" name="month"><br>
+연도-주<input type="week" name="week"><br>
+시간<input type="time" name="time"><br>
+연도-월-일-시간<input type="datetime-local" name="localtime">
+</form>
+<form>
+색상<input type="color" name="color" value="#ffff00"><br>
+숫자<input type="number" name="num" min="1" max="100" value="50"><br>
+범위<input type="range" name="range" min="1" max="100" value="70">
+</form>
+<form>
+이메일<input type="email" name="email" value="bp@sejong.ac.kr" readonly><br>
+URL<input type="url" name="email" value="bp@sejong.ac.kr" ><br>
+search<input type="search" name="email" value="bp@sejong.ac.kr" ><br>
+</form>
+<form>
+<div style="width:100px;height:70px;background-color:#ff00ff">span1</div>
+<div style="width:100px;height:70px;background-color:yellow">span1</div>
+<div style="width:100px;height:70px;background-color:red">span1</div>
+</form>
+<br><br>
+<form>
+<span style="width:1000px;height:700px;background-color:#ff00ff">span1</span>
+<span style="width:100px;height:70px;background-color:yellow">span1</span>
+<span style="width:100px;height:70px;background-color:red">span1</span>
+</form>
+<h2>iframe</h2>
+<iframe src="http://www.sejong.ac.kr" width="500" height="300" frameborder="10">세종대</iframe>
+</iframe>
+<h2>embed</h2>
+<embed src="http://www.sejong.ac.kr" width="500" height="300">
+</embed>
+<div style="background-color:yellow">
+<a href="01_text.html" target="left">텍스트 입력 태그</a>
+<a href="06_radiocheck.html" target="left">라디오 입력 태그</a>
+<a href="07_button.html" target="left">버튼 입력 태그</a>
+<a href="http://www.sejong.ac.kr" target="right">세종대학교</a>
+</div>
+<iframe src="16 iframe.html" name="left" width="30%" height="500" frameborder="3">left</iframe>
+<iframe src="" name="right" width="30% height="500" frameborder="3">???</iframe>
+</body>
+</html>

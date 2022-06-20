@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+
+<script>
+var msg = new SpeechSynthesisUtterance();
+msg.lang = 'en-US';
+    function ttsTest(){
+          msg.rate = 1.5; // 0.1 ~ 10      
+          msg.pitch = 1.5; // 0 ~ 2       
+        msg.text = "Hi my name is hello world.";
+        speechSynthesis.speak(msg);
+        }
+   function setLang(langTxt){
+        msg.lang = langTxt;
+        }
+</script>
+
+<button onclick="setLang('en-US'); ttsTest();">Click</button>
+</body>
+</html>

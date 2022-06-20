@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>투어</title>
+<style>
+.mySlides {display: none;}
+.slideshow-container{
+width:1000px;
+position:relative;
+margin:auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active{
+background-color:#717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: 0.4} 
+  to {opacity: 1}
+}
+.keyword{
+position: relative;
+background-image: url('reviewData/main_키워드.png');                                                               
+height: 140px;
+background-size: cover;
+}
+.keyword-opa{
+position: absolute;
+height: 100%; width: 100%;
+background-color: rgba(0, 0, 0, 0.5);                                                                 
+z-index:1;
+}
+.keyword .keyword2{
+width:100%; height:100%;
+position: absolute;
+top:30%;
+left:20%;                                                               
+color: white;
+z-index: 2;
+}
+#ho:hover{
+opacity:0.5;
+}
+.ppay{
+background:crimson; color: white;
+font-size:18px;
+border-radius:2px;
+padding:20px;
+border:0;
+} 
+.ppay:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+.pay00{
+position:fixed;
+display:none;
+width:700px; height:350px;
+border: 5px double crimson;
+background:white;
+left:50%; top:50%;
+margin-left:-350px; margin-top:-175px;
+padding:30px;
+z-index:3;
+}
+</style>
+</head>
+<body>						
+<center>												
+<table border="0" class="slideshow-container">
+<tr>
+<td>
+<div class="mySlides fade">
+<img src="reviewData/main_일본.jpg" style="width:100%;">
+</div>
+<div class="mySlides fade">
+<img src="reviewData/main_필리핀.jpg" style="width:100%;">
+</div>
+<div class="mySlides fade">
+<img src="reviewData/main_제주도.png" style="width:100%;">
+</div>
+<div class="mySlides fade">
+<img src="reviewData/main_미국.jpg" style="width:100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="text-align:center">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</td>
+</tr>
+</table>
+</center>
+<script>
+var slideIndex = 0;																//광고가 슬라이드되어 넘어가게 함
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000);
+}
+</script>
+<center>															
+<table border="0" style="width:1300px; height:500px; table-layout:fixed; margin:10px 0px 0px 0px;">
+<tr>
+<td style="width:400px; height:28px; font-size:30px;"><b style="color:crimson">&nbsp||  </b><small>&nbsp베스트 기획</small></td>
+<td colspan="2" style="width:600px; font-size:28px;"><b style="color:crimson">&nbsp||  </b><small>&nbsp핫클릭 베스트</small></td>
+<td style="width:300px; font-size:28px;"><b style="color:crimson">&nbsp||  </b><small>&nbsp가족 추천 여행</small></td>
+</tr>
+<tr>
+<td rowspan="2" style="padding:13px 3px 0px 13px;" width="390" height="450" id="ho"><img src="reviewData/main_기획.jpg"style="width:380px; max-height:440px" onmouseover="myover()" onmouseout="myout()" id="like_1">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-13%;background-color:white" onclick="myclick1()" id="like1">
+</td>
+<td style="padding:13px 13px 0px 13px" width="290" height="220" id="ho"><img src="reviewData/main_핫클릭1.png" style="max-width:280px; max-height:210px" onmouseover="myover()" onmouseout="myout()" id="like_2">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick2()" id="like2">
+</td>
+<td style="padding:13px 13px 0px 13px" width="290" height="220" id="ho"><img src="reviewData/main_핫클릭2.jpg" style="max-width:280px; max-height:210px"onmouseover="myover()" onmouseout="myout()" id="like_3">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick3()" id="like3">
+</td>
+<td style="padding:13px 13px 0px 13px" width="290" height="220" id="ho"><img src="reviewData/main_가족1.jpg" style="max-width:280px; max-height:210px"onmouseover="myover()" onmouseout="myout()" id="like_4">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick4()" id="like4">
+</td>
+</tr>
+<tr>
+<td style="padding:0px 13px 13px 13px" width="290" height="220" id="ho"><img src="reviewData/main_핫클릭3.jpg" style="max-width:280px; max-height:210px"onmouseover="myover()" onmouseout="myout()" id="like_5">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick5()" id="like5">
+</td>
+<td style="padding:0px 13px 13px 13px" width="290" height="220" id="ho"><img src="reviewData/main_핫클릭4.jpg" style="max-width:280px; height:190px"onmouseover="myover()" onmouseout="myout()" id="like_6">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick6()" id="like6">
+</td>
+<td style="padding:0px 13px 13px 13px" width="290" height="220" id="ho"><img src="reviewData/main_가족2.jpg" style="max-width:280px; max-height:210px"onmouseover="myover()" onmouseout="myout()" id="like_7">
+<input type="button" style="width:30px; height:30px;border-radius:50%; position:relative; left:86%; top:-20%;background-color:white" onclick="myclick7()" id="like7">
+</td>
+</tr>
+</table>
+</center>
+<br></br>
+<div class="keyword">													
+<div class="keyword2">
+<b style="font-size:40px;" onclick="myhot()">HOT 키워드</b>
+<b style="position:absolute; left:30%; top:-1%">
+<span style="color:white; background-color:purple" id="hot1">#일본 온천</span>&nbsp<span style="color:white; background-color:purple" id="hot2"> #필리핀 마닐라</span>&nbsp<span style="color:white; background-color:purple"id="hot3"> #유니버셜스튜디오</span>&nbsp<span style="color:white; background-color:purple"id="hot4"> #디즈니랜드 </span>&nbsp<span style="color:white; background-color:purple" id="hot5">#호주캥거루</span>
+</b>
+<br><b style="position:absolute; left:30%; top:25%">
+<span style="color:white; background-color:purple" id="hot6">#해운대</span>&nbsp<span style=" color:white; background-color:purple" id="hot7"> #제주도민박</span>&nbsp<span style="color:white; background-color:purple" id="hot8"> #제주도잠수함 </span>&nbsp<span style="color:white; background-color:purple" id="hot9">#성산일출봉 </span>&nbsp<span style="color:white; background-color:purple" id="hot10">#할리우드 </span>&nbsp<span style="color:white; background-color:purple" id="hot11">#부산영화제</span>
+</b></br>
+</div>
+<div class="keyword-opa"></div>
+</div>								
+<center>
+<script>
+var num=0;
+function myhot(){															//핫키워드 클릭시 #글자 커짐
+num++;
+if(num>11){num=0;}
+if(num==0){document.getElementById("hot11").style.fontSize="15px";}
+if(num==1) {document.getElementById("hot1").style.fontSize="30px";}
+if(num==2) {
+document.getElementById("hot1").style.fontSize="15px";
+document.getElementById("hot2").style.fontSize="30px";
+}
+if(num==3) {
+document.getElementById("hot2").style.fontSize="15px";
+document.getElementById("hot3").style.fontSize="30px";}
+if(num==4) {
+document.getElementById("hot3").style.fontSize="15px";
+document.getElementById("hot4").style.fontSize="30px";
+}
+if(num==5) {
+document.getElementById("hot4").style.fontSize="15px";
+document.getElementById("hot5").style.fontSize="30px";
+}
+if(num==6) {
+document.getElementById("hot5").style.fontSize="15px";
+document.getElementById("hot6").style.fontSize="30px";
+}
+if(num==7) {
+document.getElementById("hot6").style.fontSize="15px";
+document.getElementById("hot7").style.fontSize="30px";
+}
+if(num==8) {
+document.getElementById("hot7").style.fontSize="15px";
+document.getElementById("hot8").style.fontSize="30px";
+}
+if(num==9) {
+document.getElementById("hot8").style.fontSize="15px";
+document.getElementById("hot9").style.fontSize="30px";
+}
+if(num==10) {
+document.getElementById("hot9").style.fontSize="15px";
+document.getElementById("hot10").style.fontSize="30px";
+}
+if(num==11) {
+document.getElementById("hot10").style.fontSize="15px";
+document.getElementById("hot11").style.fontSize="30px";
+}
+}
+</script>							
+<center>
+<table border="0"style="width:1300px; height:400px; table-layout:fixed; margin:10px 0px 0px 0px; border-spacing:14px">					
+<tr>
+<td colspan="1" style="width:200px; height:28px; font-size:30px;"><b style="color:crimson">&nbsp||  </b><small>&nbsp얼리버드 특가</small></td>
+<td colspan="4"style="width:800px; height:28px; font-size:20px; font-weight:bold; color:crimson" id="ho2"></td>
+</tr>
+<tr>
+<td style="border-radius:50%; height:200px; background-image:url('reviewData/main_얼리버드1.jpg'); background-size:cover;"onmouseover="myover2()" onmouseout="myout2()" id="ho"onclick="location.href='https://www.google.com'"></td>	<!--누르면 사이트로 이동-->
+<td style="border-radius:50%; background-image:url('reviewData/main_얼리버드2.jpg'); background-size:cover;" onmouseover="myover2()" onmouseout="myout2()" id="ho"onclick="location.href='https://www.naver.com'"></a></td>
+<td style="border-radius:50%; background-image:url('reviewData/main_얼리버드3.jpg'); background-size:cover;"onmouseover="myover2()" onmouseout="myout2()" id="ho"onclick="location.href='https://www.google.com'"></a></td>
+<td style="border-radius:50%; background-image:url('reviewData/main_얼리버드4.jpg'); background-size:cover;"onmouseover="myover2()" onmouseout="myout2()" id="ho" onclick="location.href='https://www.naver.com'"></a></td>
+<td style="border-radius:50%; background-image:url('reviewData/main_얼리버드5.jpg'); background-size:cover;"onmouseover="myover2()" onmouseout="myout2()" id="ho" onclick="location.href='https://www.google.com'"></a></td>
+</tr>
+<tr style="text-align:center; font-weight:bold">
+<td style="height:50px">※욜로※필리핀세부<br><span style="color:red">999,000</span>원~</br></td>
+<td>★특가★제주도<br><span style="color:red">239,000</span>원~</br></td>
+<td>▷미국 서부정복<br><span style="color:red">1,741,200</span>원~</br></td>
+<td>◎특급◎일본 훗카이도<br><span style="color:red">747,000</span>원~</br></td>
+<td>♠알뜰♠호주<br><span style="color:red">1,633,300</span>원~</br></td>
+</tr>
+</table>
+</center>
+<img src="reviewData/main_광고1.png" style="position:absolute; left:3%; top:630px; width:200px; height:350px; opacity:0" id="ho3">
+<table border="1" style="position:fixed; left:87%;top:5%; ">
+<tr style="background-color:crimson;">
+<td height="30"><b>최근 <b style="color:pink">찜</b>한 상품</b></td>
+</tr>
+<tr>
+<td height="100" id="jjim1">
+</td>
+</tr>
+<tr>
+<td height="100" id="jjim2"></td>
+</tr>
+<tr>
+<td height="100" id="jjim3"></td>
+</tr>
+</table>
+<script>												
+function myover(){															//마우스오버시 광고 보임
+document.getElementById("ho3").style.opacity="1";
+}
+function myout(){															//마우스아웃시 광고 없어짐
+document.getElementById("ho3").style.opacity="0";
+}
+function myover2(){														//마우스오버시 글자 출력
+document.getElementById("ho2").innerText="상품을 클릭하면 검색창으로 이동합니다";
+}
+function myout2(){															//마우스아웃시 글자 사라짐
+document.getElementById("ho2").innerText="";
+}
+function myclick1(){														//버튼클릭시 버튼에 색깔표현 & 찜한상품에 사진표현
+var like=document.getElementById("like1");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(1);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(1);
+}
+}
+function myclick2(){
+var like=document.getElementById("like2");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(2);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(2);
+}
+}
+function myclick3(){
+var like=document.getElementById("like3");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(3);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(3);
+}
+}
+function myclick4(){
+var like=document.getElementById("like4");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(4);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(4);
+}
+}
+function myclick5(){
+var like=document.getElementById("like5");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(5);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(5);
+}
+}
+function myclick6(){
+var like=document.getElementById("like6");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(6);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(6);
+}
+}
+function myclick7(){
+var like=document.getElementById("like7");
+if(like.style.backgroundColor=="crimson"){
+like.style.backgroundColor="white";
+myhate(7);
+}
+else{
+like.style.backgroundColor="crimson";
+myjjim(7);
+}
+}
+function myjjim(num){															//찜한상품에 사진 넣기
+var j1=document.getElementById("jjim1");
+var j2=document.getElementById("jjim2");
+var j3=document.getElementById("jjim3");
+var str="like_";
+str=str+num;
+var change=document.getElementById(str).src;
+j3.style.backgroundImage=j2.style.backgroundImage;
+j3.style.backgroundSize="cover";
+j2.style.backgroundImage=j1.style.backgroundImage;
+j2.style.backgroundSize="cover";
+j1.style.backgroundImage="url(\""+change+"\")";
+j1.style.backgroundSize="cover";
+}
+function myhate(num){															//찜한상품에서 사진 빼기
+var j1=document.getElementById("jjim1");
+var j2=document.getElementById("jjim2");
+var j3=document.getElementById("jjim3");
+var str="like_";
+str=str+num;
+var change=document.getElementById(str).src;
+if("url(\""+change+"\")"==j1.style.backgroundImage){
+j1.style.backgroundImage=j2.style.backgroundImage;
+j1.style.backgroundSize="cover";
+j2.style.backgroundImage=j3.style.backgroundImage;
+j2.style.backgroundSize="cover";
+j3.style.backgroundImage="";
+}
+else if("url(\""+change+"\")"==j2.style.backgroundImage){
+j2.style.backgroundImage=j3.style.backgroundImage;
+j2.style.backgroundSize="cover";
+j3.style.backgroundImage="";
+}
+else if("url(\""+change+"\")"==j3.style.backgroundImage){
+j3.style.backgroundImage="";
+}
+}
+</script>
+<center>
+<input type="button" onclick="viewpay0()" value="예약하기" class="ppay">
+<div id="pay0" class="pay00">
+<table style="border-collapse: collapse; border:0; margin:auto;">
+<caption>《 결제 옵션 》</caption>
+<tr>
+<th>지금 결제하기</th>
+<th>나중에 결제하기</th>
+</tr>
+<tr>
+<td style="border-right:1px solid lightgrey;">
+<b style="font-size:25px; color: crimson; ">￦ 256,558</b>
+<small style="color:grey;">1박당 객실 1개 기준 요금</small><br>
+<button type="button" onclick="error()" class="ppay">지금 결제하기</button><br>
+-신용카드나 다른 방법으로 지금 온라인 결제<p>
+-예약 시 바로 요금 결제됨<p>
+-[ 2019년 3월 28일 목요일 ] 전 예약 취소 시 전액 환불
+</td>
+<td>
+<b style="font-size:25px; color: crimson; ">￦ 256,558</b><sup>*</sup>
+<small style="color:grey;">1박당 객실 1개 기준 요금</small><br>
+<button type="button" onclick="error()" class="ppay">나중에 결제하기</button><br>
+-지금 카드 정보 입력하더라도 나중에 결제됨<p>
+-결제 예정일: [2019년 3월 26일 화요일 ]<p>
+-[ 2019년 3월 31일 일요일 ] 전 예약 취소 시 예약 무료 취소 가능
+</td>
+</tr>
+</table>
+<font size="3" onclick="closepay0()"  style="background:midnightblue; cursor:pointer; color:white; float:right;">[CLOSE]</font>
+</div>
+</center>
+<script>																	//버튼클릭시 div팝업창 나타남
+function viewpay0(){
+document.getElementById("pay0").style.display="inline";
+}
+function closepay0(){
+document.getElementById("pay0").style.display="none";
+}
+function error(){
+alert("결제 창을 띄우는 데 오류가 생겼습니다. 다시 시도해주세요.");
+}
+</script>
+</body>
+</html>

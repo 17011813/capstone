@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>제목</title>
+<script>
+var num1=prompt('첫번째 숫자를 넣으시오');
+var cal=prompt('+-*/중 하나를 넣으시오');
+var num2=prompt('두번째 숫자를 넣으시오');
+var num3;
+function a(num1,num2){return Number(num1)+Number(num2);}
+function b(num1,num2){return num1-num2}
+function c(num1,num2){return num1*num2}
+function d(num1,num2){return num1/num2}
+if(cal=='+'){
+num3=a(num1,num2);
+}
+if(cal=='-'){
+num3=b(num1,num2);
+}
+if(cal=='*'){
+num3=c(num1,num2);
+}
+if(cal=='/'){
+num3=d(num1,num2);
+}
+var decision=confirm('결과는'+num3);
+</script>
+</head>
+<body>
+</body>
+</html>

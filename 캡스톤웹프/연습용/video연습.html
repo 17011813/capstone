@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+<div id="di"></div>
+<video id="vid" src="video/video1.mp4" style="width:300px;height:300px;"></video>
+<div id="cli" style="width:100px;height:100px;background-color:yellow" onclick="start()">재생버튼</div>
+<script>
+function start(){
+document.getElementById("vid").innerHTML="재생중";
+vid.play();
+setTimeout(function(){ 
+document.getElementById("di").innerHTML="1초문장"
+ }, 1000);
+setTimeout(function(){ 
+document.getElementById("di").innerHTML="2초문장"
+ }, 2000);
+setTimeout(function(){ 
+document.getElementById("di").innerHTML="3초문장"
+ }, 3000);
+setTimeout(function(){ 
+document.getElementById("di").innerHTML="4초문장"
+ }, 4000);
+setTimeout(function(){ 
+document.getElementById("di").innerHTML=""
+ }, 5000);
+}
+</script>
+</body>
+</html>

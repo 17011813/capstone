@@ -1,0 +1,54 @@
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\039.jpg	A man is dancing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\047.jpg	A man is walking on a wire.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\054.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\045.jpg	A building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\063.jpg	A group of people are playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\033.jpg	A woman is sitting into the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\032.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\035.jpg	A song.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\049.jpg	A man is walking on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\051.jpg	A building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\02.jpg	A man is sitting on the ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\057.jpg	A man is standing on a wire.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\023.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\08.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\027.jpg	A woman is sitting on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\07.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\061.jpg	A group of a woman.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\09.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\031.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\024.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\053.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\010.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\060.jpg	A toy.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\059.jpg	A man is walking on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\036.jpg	A man is sitting on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\01.jpg	A man in the water.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\046.jpg	A building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\03.jpg	A man is running on a ceiling.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\05.jpg	A group of people.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\056.jpg	A group of people are playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\058.jpg	A man is walking in the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\040.jpg	A group of people are dancing on a sidewalk.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\020.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\026.jpg	A man is walking on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\028.jpg	A group of people is playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\048.jpg	A man is standing into a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\062.jpg	A group of people.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\030.jpg	A woman is sitting on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\021.jpg	A man is walking on a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\034.jpg	A woman is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\052.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\050.jpg	A building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\041.jpg	A group of people are playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\043.jpg	A man is playing with a board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\022.jpg	A man is walking on the ground.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\042.jpg	A group of people are playing.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\038.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\037.jpg	A woman is walking up.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\029.jpg	A large board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\044.jpg	A building.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\055.jpg	A man is walking.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\06.jpg	A group of people.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\025.jpg	A woman is sitting on a wooden board.
+beam_size_1	D:\caffe\caffe\examples\s2vt\travelimg\04.jpg	A man is moving down.

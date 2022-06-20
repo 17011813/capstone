@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body id="bgimg">
+<script>
+function next(){
+var array=["리사.jpg","로제.jpg","지수.jpg","제니.jpg"];
+var num=Math.floor(Math.random()*4);
+var bg=document.getElementById("bgimg");
+bg.style.backgroundImage="url("+"data/"+array[num]+")";
+}
+</script>
+<button type="button" onclick="next()">랜덤</button>
+</body>
+</html>
